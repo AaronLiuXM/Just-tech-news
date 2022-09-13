@@ -34,7 +34,7 @@ User.init(
     },
   },
   {
-    /*hooks: {
+    hooks: {
       // set up beforeCreate lifecycle "hook" functionality
       async beforeCreate(newUserData) {
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
@@ -49,7 +49,7 @@ User.init(
         );
         return updatedUserData;
       },
-    },*/
+    },
     sequelize,
     timestamps: false,
     freezeTableName: true,
